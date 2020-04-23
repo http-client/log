@@ -1,0 +1,13 @@
+{
+    "name": "http-client/log",
+    "autoload": {
+        "psr-4": {
+            "HttpClient\\Log\\": "src/"
+        }
+    },
+    "extra": {
+        "http-client": {
+            "extensions": ["HttpClient\\Log\\Extension"]
+        }
+    }
+}
